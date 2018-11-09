@@ -46,6 +46,10 @@ class SignIn extends Component {
               {authError? <p>{authError}</p>:null}
             </div>
           </div>
+          <div className="blue-text center">
+            User: test2@test.com
+            Password: test1234
+          </div>
         </form>
       </div>
     )
